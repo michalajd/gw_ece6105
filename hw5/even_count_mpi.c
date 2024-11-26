@@ -11,7 +11,6 @@ void main(int argc, char *argv[]) {
 
     /* Defining critical variables */
     int elements = N;
-    int elements_proc = N / size;
     int sub_A[elements_proc]; // buffer for subsets of A for each process
     int evens = 0; // variable in each process
     int tot_even = 0; // variable for the whole array
